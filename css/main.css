@@ -393,6 +393,7 @@ body::after {
   border-radius: 5px;
   position: relative;
   margin: 10px 0;
+  
 }
 
 .S2_home .box_2 {
@@ -407,7 +408,7 @@ body::after {
   color: var(--btnColor);
 }
 .S2_home .box_1 h4{
-  margin: 20px 0;
+  margin: 10px 0;
   color: var(--textColor);
   z-index: 500000;
   font-weight: 800;
@@ -425,9 +426,12 @@ body::after {
   z-index: -1;
   opacity: .8;
 }
+.S2_home .box_1 .shap img{
+height: 500px;
+}
 .content{
   z-index: 555 !important;
-  padding: 25px;
+  padding: 10px 25px;
 }
 /* S3_home */
 .S3_home{
